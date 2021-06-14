@@ -20,7 +20,7 @@ class Digimon extends Component {
 
   render() {
     return (
-      <div>
+      <div style={{ margin: '10%' }}>
         <CardGroup>
           {this.props.allData.map((item, idx) => {
             return (
